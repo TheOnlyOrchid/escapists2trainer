@@ -51,7 +51,19 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Test.cs" />
+        <Compile Include="Main.cs" />
+        <Compile Include="Core\Keybind.cs" />
+        <Compile Include="Core\KeybindAction.cs" />
+        <Compile Include="Core\KeybindManager.cs" />
+        <Compile Include="Core\ModuleCategory.cs" />
+        <Compile Include="Core\ModuleRegistry.cs" />
+        <Compile Include="Core\ModuleSettings.cs" />
+        <Compile Include="Core\ModuleWindow.cs" />
+        <Compile Include="Core\TrainerUiState.cs" />
+        <Compile Include="Modules\ITrainerModule.cs" />
+        <Compile Include="Modules\TestModule.cs" />
+        <Compile Include="Modules\TimeFreezeModule.cs" />
+        <Compile Include="Modules\TrainerModuleBase.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
