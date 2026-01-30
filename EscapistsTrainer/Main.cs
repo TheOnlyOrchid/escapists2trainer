@@ -206,6 +206,9 @@ namespace EscapistsTrainer
             var timeFreeze = new TimeFreezeModule(_registry.Keybinds);
             _registry.RegisterModule(timeFreeze);
 
+            var setTime = new SetTimeModule();
+            _registry.RegisterModule(setTime);
+
             var placeholder = new TestModule("TestModule", "WARNING : does absolutely nothing ;).", new string[] { "Utilities", "Testing" });
             _registry.RegisterModule(placeholder);
         }

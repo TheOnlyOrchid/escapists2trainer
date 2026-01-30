@@ -25,7 +25,7 @@ namespace EscapistsTrainer
         public override string Id { get { return "time-freeze"; } }
         public override string DisplayName { get { return "Time Freeze"; } }
         public override string Description { get { return "Pauses or resumes in-game time."; } }
-        public override string[] CategoryPath { get { return new string[] { "World" }; } }
+        public override string[] CategoryPath { get { return new string[] { "World", "Time" }; } }
 
         public override bool IsEnabled
         {
